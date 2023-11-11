@@ -9,10 +9,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-
+@Test
 public class loginForm {
-    @Test
-    public void testLoginForm() {
+    public static void testLoginForm() {
 
          //1. Init web-driver session
         WebDriver driver = driverFactory.getChromeDriver();
